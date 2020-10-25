@@ -1,2 +1,2 @@
-# GenereViolence
-Program to analize data of genere Violence
+# GenderViolence
+Program to analize data of gender Violence
