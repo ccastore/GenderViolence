@@ -26,8 +26,8 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation
 
 #Data and clas import
-dir_data = '/home/carlos/Escritorio/ArticuloVI/Data.txt'
-dir_clas = '/home/carlos/Escritorio/ArticuloVI/Clases.txt'
+dir_data = 'Data.txt'
+dir_clas = 'Clases.txt'
 data = pd.read_csv(dir_data, header=None)
 clas = pd.read_csv(dir_clas, header=None)
 
