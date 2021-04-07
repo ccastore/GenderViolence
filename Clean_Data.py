@@ -6,12 +6,12 @@ import os
 from collections import Counter
 
 #Directory clean
-dir_data = '/home/carlos/Escritorio/ArticuloVI/n_Data.txt'
+dir_data = 'n_Data.txt'
 
 
 #Import the data 
 data = pd.read_csv(dir_data, header=None)
-n_data=open("/home/carlos/Escritorio/ArticuloVI/PostData.txt",'w')
+n_data=open("Data.txt",'w')
 
 
 for frase in range (len(data)):
